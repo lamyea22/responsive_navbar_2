@@ -1,0 +1,65 @@
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;  /*to control how all 
+	the element's width and height are calculated. this is needed to build a responsive grid view*/
+   
+}
+body{}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+header{
+	background-color: #FFA559;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:20%;
+	float:left;
+}
+.logo a{
+	display: inline-block;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+.menu{
+	width: 70%;
+	float:right;
+	overflow:hidden;
+	margin-top: 25px;
+}
+.menu ul{
+	overflow: hidden;
+	float: right;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+}
+.menu ul li a{
+	display: inline-block;
+    text-decoration: none;
+    margin-right: 43px;
+    font-size: 25px;
+    color: white;
+    border-bottom: 4px solid transparent;
+    transition: .3s;
+}
+.menu ul li:nth-child(5) a{
+	margin-right: 0;
+}
+.menu ul li:last-child{
+	display:none;
+}
+.menu ul li:hover a{
+	border-bottom: 4px solid #DEF8FF;
+}
